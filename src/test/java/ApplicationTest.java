@@ -51,7 +51,7 @@ public class ApplicationTest {
     })
     public void testGetFibonacciAtNumber(int n, int expectedValue) {
 
-        assertEquals(expectedValue, application.getFibonacciNumberAt(n));
+        assertEquals(expectedValue, application.fibonacciNumberAt(n));
     }
 
 }
