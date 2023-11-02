@@ -1,6 +1,6 @@
 public class Application {
     public int getFibonacciNumberAt(int n) {
-        if (n <= 2) {
+        if (n < 2) {
             return n;
         } else {
             return getFibonacciNumberAt(n - 1) + getFibonacciNumberAt(n - 2);
